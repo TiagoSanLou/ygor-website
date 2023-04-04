@@ -1,0 +1,135 @@
+.navbar {
+    padding: 0 10% 0;
+    background-color: #F6F1E9;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+
+.navbar-toggler {
+    color: #4F200D;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 300;
+    color: #4F200D;
+}
+
+.nav-link:hover {
+    color: #FF8400;
+}
+
+.logo {
+    width: 45%;
+}
+
+
+h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 5rem;
+}
+
+/* #title {} */
+
+.container-fluid {
+    padding: 0 10% 0;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-subtext {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 4rem;
+    /* color: #ECF2FF; */
+}
+
+.self-portrait {
+    width: 100%;
+}
+
+#works {
+    /* background-color: #4F200D; */
+    background-color: #F6F1E9;
+    padding: 1% 0% 1%;
+    /* bottom: 600px */
+}
+
+.work-title {
+    /* position: absolute; */
+    /* font-family: 'Abril Fatface', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: #FF8400;
+    font-size: 4rem;
+    /* font-weight: 100; */
+    /* margin: 15% 10% 0; */
+}
+
+.carousel-item {
+    text-align: center;
+    height: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    filter: invert(90%);
+}
+
+.work-pic {
+    object-fit: cover;
+    object-position: top;
+    width: 60%;
+}
+
+.work-id {
+    color: #F6F1E9;
+    font-weight: 100;
+    margin-top: 2%;
+}
+
+#footer {
+    background-color: #FF8400;
+    text-align: center;
+    color: #F6F1E9;
+    /* line-height: 1.5; */
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+}
+
+.links {
+    color: #F6F1E9;
+}
+
+@media (min-width: 900px) {
+    .carousel-item {
+        height: 750px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .self-portrait {
+     margin-bottom: 3%;
+    }
+}
+
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; 
+*/
